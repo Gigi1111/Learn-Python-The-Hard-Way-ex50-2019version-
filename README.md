@@ -1,1 +1,4 @@
-# Learn-Python-The-Hard-Way-ex50-2019version-
+ try:
+     yield next(seq)
+except StopIteration:
+     return
